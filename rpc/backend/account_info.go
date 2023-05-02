@@ -7,8 +7,8 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 	sdkmath "cosmossdk.io/math"
-	rpctypes "github.com/0x4139/humans/rpc/types"
-	evmtypes "github.com/0x4139/humans/x/evm/types"
+	rpctypes "github.com/MonCatCat/humans/rpc/types"
+	evmtypes "github.com/MonCatCat/humans/x/evm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	humans "github.com/0x4139/humans/types"
+	humans "github.com/MonCatCat/humans/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	rpcclient "github.com/tendermint/tendermint/rpc/client"
 )

@@ -46,11 +46,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/server/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/0x4139/humans/indexer"
-	ethdebug "github.com/0x4139/humans/rpc/namespaces/ethereum/debug"
-	"github.com/0x4139/humans/server/config"
-	srvflags "github.com/0x4139/humans/server/flags"
-	humans "github.com/0x4139/humans/types"
+	"github.com/MonCatCat/humans/indexer"
+	ethdebug "github.com/MonCatCat/humans/rpc/namespaces/ethereum/debug"
+	"github.com/MonCatCat/humans/server/config"
+	srvflags "github.com/MonCatCat/humans/server/flags"
+	humans "github.com/MonCatCat/humans/types"
 )
 
 // DBOpener is a function to open `application.db`, potentially with customized options.

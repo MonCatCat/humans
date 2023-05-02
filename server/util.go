@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/0x4139/humans/server/config"
+	"github.com/MonCatCat/humans/server/config"
 	"github.com/gorilla/mux"
 	"github.com/improbable-eng/grpc-web/go/grpcweb"
 	"github.com/spf13/cobra"

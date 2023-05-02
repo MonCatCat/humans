@@ -100,17 +100,17 @@ import (
 	ibchost "github.com/cosmos/ibc-go/v6/modules/core/24-host"
 	ibckeeper "github.com/cosmos/ibc-go/v6/modules/core/keeper"
 
-	"github.com/0x4139/humans/app/ante"
-	"github.com/0x4139/humans/ethereum/eip712"
-	srvflags "github.com/0x4139/humans/server/flags"
-	humans "github.com/0x4139/humans/types"
-	"github.com/0x4139/humans/x/evm"
-	evmkeeper "github.com/0x4139/humans/x/evm/keeper"
-	evmtypes "github.com/0x4139/humans/x/evm/types"
-	"github.com/0x4139/humans/x/evm/vm/geth"
-	"github.com/0x4139/humans/x/feemarket"
-	feemarketkeeper "github.com/0x4139/humans/x/feemarket/keeper"
-	feemarkettypes "github.com/0x4139/humans/x/feemarket/types"
+	"github.com/MonCatCat/humans/app/ante"
+	"github.com/MonCatCat/humans/ethereum/eip712"
+	srvflags "github.com/MonCatCat/humans/server/flags"
+	humans "github.com/MonCatCat/humans/types"
+	"github.com/MonCatCat/humans/x/evm"
+	evmkeeper "github.com/MonCatCat/humans/x/evm/keeper"
+	evmtypes "github.com/MonCatCat/humans/x/evm/types"
+	"github.com/MonCatCat/humans/x/evm/vm/geth"
+	"github.com/MonCatCat/humans/x/feemarket"
+	feemarketkeeper "github.com/MonCatCat/humans/x/feemarket/keeper"
+	feemarkettypes "github.com/MonCatCat/humans/x/feemarket/types"
 
 	// Force-load the tracer engines to trigger registration due to Go-Ethereum v1.10.15 changes
 	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
@@ -430,7 +430,7 @@ func NewHumansApp(
 
 	app.GovKeeper = *govKeeper.SetHooks(
 		govtypes.NewMultiGovHooks(
-			// register the governance hooks
+		// register the governance hooks
 		),
 	)
 

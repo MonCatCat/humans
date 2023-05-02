@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sort"
 
-	humanshd "github.com/0x4139/humans/crypto/hd"
+	humanshd "github.com/MonCatCat/humans/crypto/hd"
 
 	bip39 "github.com/cosmos/go-bip39"
 	"github.com/spf13/cobra"

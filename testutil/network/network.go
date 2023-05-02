@@ -49,13 +49,13 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/0x4139/humans/crypto/hd"
-	"github.com/0x4139/humans/encoding"
-	"github.com/0x4139/humans/server/config"
-	humans "github.com/0x4139/humans/types"
-	evmtypes "github.com/0x4139/humans/x/evm/types"
+	"github.com/MonCatCat/humans/crypto/hd"
+	"github.com/MonCatCat/humans/encoding"
+	"github.com/MonCatCat/humans/server/config"
+	humans "github.com/MonCatCat/humans/types"
+	evmtypes "github.com/MonCatCat/humans/x/evm/types"
 
-	"github.com/0x4139/humans/app"
+	"github.com/MonCatCat/humans/app"
 )
 
 // network lock to only allow one test network at a time

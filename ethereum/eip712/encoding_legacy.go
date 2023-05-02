@@ -12,7 +12,7 @@
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the Humans library. If not, see https://github.com/0x4139/humans/blob/main/LICENSE
+// along with the Humans library. If not, see https://github.com/MonCatCat/humans/blob/main/LICENSE
 package eip712
 
 import (
@@ -25,7 +25,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	txTypes "github.com/cosmos/cosmos-sdk/types/tx"
 
-	"github.com/0x4139/humans/types"
+	"github.com/MonCatCat/humans/types"
 	apitypes "github.com/ethereum/go-ethereum/signer/core/apitypes"
 )
 

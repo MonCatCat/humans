@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/0x4139/humans/rpc/backend"
-	"github.com/0x4139/humans/rpc/types"
+	"github.com/MonCatCat/humans/rpc/backend"
+	"github.com/MonCatCat/humans/rpc/types"
 
 	"github.com/pkg/errors"
 	"github.com/tendermint/tendermint/libs/log"
