@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/0x4139/humans/indexer"
+	"github.com/MonCatCat/humans/indexer"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/server"
 	tmnode "github.com/tendermint/tendermint/node"

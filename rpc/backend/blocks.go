@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"strconv"
 
-	rpctypes "github.com/0x4139/humans/rpc/types"
-	evmtypes "github.com/0x4139/humans/x/evm/types"
+	rpctypes "github.com/MonCatCat/humans/rpc/types"
+	evmtypes "github.com/MonCatCat/humans/x/evm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
 	"github.com/ethereum/go-ethereum/common"

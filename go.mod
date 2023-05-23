@@ -1,4 +1,4 @@
-module github.com/0x4139/humans
+module github.com/MonCatCat/humans
 
 go 1.19
 

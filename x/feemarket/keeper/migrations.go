@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	v4 "github.com/0x4139/humans/x/feemarket/migrations/v4"
-	"github.com/0x4139/humans/x/feemarket/types"
+	v4 "github.com/MonCatCat/humans/x/feemarket/migrations/v4"
+	"github.com/MonCatCat/humans/x/feemarket/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

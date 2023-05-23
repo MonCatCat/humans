@@ -2,7 +2,7 @@ package ante
 
 import (
 	errorsmod "cosmossdk.io/errors"
-	evmtypes "github.com/0x4139/humans/x/evm/types"
+	evmtypes "github.com/MonCatCat/humans/x/evm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 )

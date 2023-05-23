@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/0x4139/humans/x/evm/types"
+	"github.com/MonCatCat/humans/x/evm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

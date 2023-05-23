@@ -7,9 +7,9 @@ import (
 	sdkmath "cosmossdk.io/math"
 
 	errorsmod "cosmossdk.io/errors"
-	humans "github.com/0x4139/humans/types"
-	"github.com/0x4139/humans/x/evm/statedb"
-	"github.com/0x4139/humans/x/evm/types"
+	humans "github.com/MonCatCat/humans/types"
+	"github.com/MonCatCat/humans/x/evm/statedb"
+	"github.com/MonCatCat/humans/x/evm/types"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"

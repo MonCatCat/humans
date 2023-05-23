@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	errorsmod "cosmossdk.io/errors"
-	rpctypes "github.com/0x4139/humans/rpc/types"
+	rpctypes "github.com/MonCatCat/humans/rpc/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -15,8 +15,8 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	humans "github.com/0x4139/humans/types"
-	evmtypes "github.com/0x4139/humans/x/evm/types"
+	humans "github.com/MonCatCat/humans/types"
+	evmtypes "github.com/MonCatCat/humans/x/evm/types"
 )
 
 const (
