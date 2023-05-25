@@ -1,7 +1,7 @@
 package v4
 
 import (
-	"github.com/0x4139/humans/x/feemarket/types"
+	"github.com/MonCatCat/humans/x/feemarket/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"

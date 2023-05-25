@@ -4,8 +4,8 @@ import (
 	"math"
 
 	sdkmath "cosmossdk.io/math"
-	"github.com/0x4139/humans/app"
-	evmtypes "github.com/0x4139/humans/x/evm/types"
+	"github.com/MonCatCat/humans/app"
+	evmtypes "github.com/MonCatCat/humans/x/evm/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"

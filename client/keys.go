@@ -9,8 +9,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/tendermint/tendermint/libs/cli"
 
-	clientkeys "github.com/0x4139/humans/client/keys"
-	"github.com/0x4139/humans/crypto/hd"
+	clientkeys "github.com/MonCatCat/humans/client/keys"
+	"github.com/MonCatCat/humans/crypto/hd"
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 )
 

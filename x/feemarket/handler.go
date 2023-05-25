@@ -2,7 +2,7 @@ package feemarket
 
 import (
 	errorsmod "cosmossdk.io/errors"
-	"github.com/0x4139/humans/x/feemarket/types"
+	"github.com/MonCatCat/humans/x/feemarket/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 )
